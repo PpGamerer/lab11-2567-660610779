@@ -55,7 +55,6 @@ export default function RegisterForm() {
   };
 
   const cbTermsandConditionsOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    let isUserAgreed = true;
     setTermsandconditions(event.target.checked);
   };
   // ----------------------------------------------------------------
